@@ -169,7 +169,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("**Some Error While Searching...‼️\n\nReport @RoyalKrrishn 🥷**")
+        result = await event.reply("**Some Error While Searching...‼️\n\nReport https://t.me/LogChannelDemoo 🥷**")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
