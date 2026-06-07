@@ -27,7 +27,7 @@ class Config(object):
     PING_INTERVAL = int(os.environ.get("PING_INTERVAL", "300"))
     ABOUT_BOT_TEXT = """<b>This is ShareDisk Movie Search Bot.
 
-🤖 My Name: <a href='https://t.me/iPopcornMovieBot'>i Popcorn Movie Bot</a>
+🤖 My Name: <a href='https://t.me/+gwwILGrkqsgxNzll'>Mollywood Bot</a>
 
 📝 Language : <a href='https://www.python.org'>Python V3</a>
 
@@ -35,12 +35,12 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/RoyalKrrishna'>Royal Krrishna</a></b>
+👨‍💻 Created By: <a href='https://t.me/+gwwILGrkqsgxNzll'>Mollywood</a></b>
 """
 
     ABOUT_HELP_TEXT = """
 <b>
-👨‍💻 Developer : <a href='https://t.me/RoyalKrrishna'>Royal Krrishna</a></b>
+👨‍💻 Developer : <a href='https://t.me/+gwwILGrkqsgxNzll'>Mollywood</a></b>
 """
 
     HOME_TEXT = """
@@ -49,7 +49,7 @@ Iꜰ Yᴏᴜ Lɪᴋᴇ Mᴇ!😘
 Pʟᴇᴀꜱᴇ Sʜᴀʀᴇ Mᴇ Wɪᴛʜ Yᴏᴜʀ 
 Fʀɪᴇɴᴅꜱ Aɴᴅ Fᴀᴍɪʟʏ.👨‍👨‍👧
 
-Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @RoyalKrrishna
+Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @MyMollywoodBot
 """
 
     START_MSG = """
@@ -59,7 +59,7 @@ Mᴇ! SʜᴀʀᴇDɪꜱᴋ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ.🤖
 
 I Cᴀɴ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇꜱ Fᴏʀ Yᴏᴜ.🔍
 
-Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @RoyalKrrishna**
+Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @MyMollywoodBot**
 """
 
 
