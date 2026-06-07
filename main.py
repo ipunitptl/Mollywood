@@ -29,11 +29,12 @@ app = Flask(__name__)
 def home():
     return "Bot Running"
 
-app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
-    
-    def keep_alive():
-      server = Thread(target=run)
-      server.start()
+def run():
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
+def keep_alive():
+    server = Thread(target=run)
+    server.start()
 
 async def ping_server():
     sleep_time = Config.PING_INTERVAL
